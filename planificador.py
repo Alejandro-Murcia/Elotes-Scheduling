@@ -32,9 +32,9 @@ class Planificador:
                             'Producto': demanda.producto.nombre,
                             'Maquina': maquina.id,
                             'FechaHoraInicio': demanda.fecha_inicio,
-                            'FechaHoraFin': "Desconocido",  # Aquí podrías agregar lógica para calcular la fecha de fin
+                            'FechaHoraFin': "Desconocido", 
                             'CantidadProgramada': cantidad,
-                            'UnidadVentas': "unidades"  # Supongo que vendes en unidades
+                            'UnidadVentas': "unidades"  
                         })
                         asignado = True
                         break
