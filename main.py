@@ -8,7 +8,7 @@ def main():
     elote_entero = Producto(15, "Elote entero")
     elote_vaso = Producto(16, "Elote en vaso")
 
-    # Creación de máquinas (capacidad de 100 unidades por ejemplo)
+    # Creación de máquinas (100 unidades como ejemplo)
     maquina1 = Maquina(1, 100)
     maquina2 = Maquina(2, 100)  # Añadimos una segunda máquina
 
